@@ -77,3 +77,17 @@ nav>div.container  +  div.box1  +div.box2  ........
 
 ## 而且container 最好不要把类名丢到一个div身上  不然 容易造成布局 混乱 ; 
 ## 表示 在container里面的menu 点击对应的导航, 显示对应的box1 或box2 ...... 默认是都是display: none的
+
+
+# width 和 min-width 适用场景
+
+width: 100%; 主要是使用在pc端页面
+
+min-width: 1200px; 主要是 想要当pc端的页面能够较好的,全部呈现到移动端的时候,可以使用一下
+
+min-width 是原来还没有media媒体查询的时代时候, 方案 ;
+
+现在的移动端 主要是使用媒体查询和抛弃pc端,单独开发做法;
+
+#注: 做移动端开发时候,要引入移动端的meta 标签设置,可以自动简单适配多种移动端
+
